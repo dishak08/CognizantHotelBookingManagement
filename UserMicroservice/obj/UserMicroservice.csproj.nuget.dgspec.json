@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\DHISHA\\HotelBookingManagement\\UserMicroservice\\UserMicroservice.csproj": {}
+    "C:\\Users\\DHISHA\\CognizantHotelBookingManagement\\UserMicroservice\\UserMicroservice.csproj": {}
   },
   "projects": {
-    "C:\\Users\\DHISHA\\HotelBookingManagement\\UserMicroservice\\UserMicroservice.csproj": {
+    "C:\\Users\\DHISHA\\CognizantHotelBookingManagement\\UserMicroservice\\UserMicroservice.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\DHISHA\\HotelBookingManagement\\UserMicroservice\\UserMicroservice.csproj",
+        "projectUniqueName": "C:\\Users\\DHISHA\\CognizantHotelBookingManagement\\UserMicroservice\\UserMicroservice.csproj",
         "projectName": "UserMicroservice",
-        "projectPath": "C:\\Users\\DHISHA\\HotelBookingManagement\\UserMicroservice\\UserMicroservice.csproj",
+        "projectPath": "C:\\Users\\DHISHA\\CognizantHotelBookingManagement\\UserMicroservice\\UserMicroservice.csproj",
         "packagesPath": "C:\\Users\\DHISHA\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\DHISHA\\HotelBookingManagement\\UserMicroservice\\obj\\",
+        "outputPath": "C:\\Users\\DHISHA\\CognizantHotelBookingManagement\\UserMicroservice\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\DHISHA\\AppData\\Roaming\\NuGet\\NuGet.Config",

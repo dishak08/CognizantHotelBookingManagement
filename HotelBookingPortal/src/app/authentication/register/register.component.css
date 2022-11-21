@@ -94,11 +94,12 @@ h2.active {
 
 
 
-/* FORM TYPOGRAPHY*/
+
 
 input[type=button], input[type=submit], input[type=reset]  {
-  background-color: #56baed;
-  border: none;
+  background-color: #000;
+  border: 2px solid white;
+  border-radius: 30px !important;
   color: white;
   padding: 15px 80px;
   text-align: center;
@@ -109,7 +110,7 @@ input[type=button], input[type=submit], input[type=reset]  {
   -webkit-box-shadow: 0 10px 30px 0 rgba(95,186,233,0.4);
   box-shadow: 0 10px 30px 0 rgba(95,186,233,0.4);
   -webkit-border-radius: 5px 5px 5px 5px;
-  border-radius: 5px 5px 5px 5px;
+
   margin: 5px 20px 40px 20px;
   -webkit-transition: all 0.3s ease-in-out;
   -moz-transition: all 0.3s ease-in-out;
@@ -153,7 +154,7 @@ input[type=text], input[type=password],input[type=email],input[type=tel],input[t
 
 input[type=text]:focus, input[type=password]:focus,input[type=email]:focus,input[type=tel]:focus,input[type=date]:focus {
   background-color: #fff;
-  border-bottom: 2px solid #5fbae9;
+  border-bottom: 2px solid #000;
 }
 
 input[type=text]::placeholder, input[type=password]::placeholder,input[type=email]::placeholder,input[type=tel]::placeholder,input[type=date]::placeholder {
@@ -166,9 +167,7 @@ input[type=text]::placeholder, input[type=password]::placeholder,input[type=emai
 
 
 
-/* ANIMATIONS */
 
-/* Simple CSS3 Fade-in-down Animation */
 .fadeInDown {
   -webkit-animation-name: fadeInDown;
   animation-name: fadeInDown;
@@ -204,7 +203,7 @@ input[type=text]::placeholder, input[type=password]::placeholder,input[type=emai
   }
 }
 
-/* Simple CSS3 Fade-in Animation */
+
 @-webkit-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
 @-moz-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
 @keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
@@ -266,14 +265,14 @@ input[type=text]::placeholder, input[type=password]::placeholder,input[type=emai
   animation-delay: 1.6s;
 }
 
-/* Simple CSS3 Fade-in Animation */
+
 .underlineHover:after {
   display: block;
   left: 0;
   bottom: -10px;
   width: 0;
   height: 2px;
-  background-color: #56baed;
+  background-color: #000;
   content: "";
   transition: width 0.2s;
 }
@@ -285,10 +284,6 @@ input[type=text]::placeholder, input[type=password]::placeholder,input[type=emai
 .underlineHover:hover:after{
   width: 100%;
 }
-
-
-
-/* OTHERS */
 
 *:focus {
     outline: none;

@@ -5,7 +5,12 @@ VisualStudioVersion = 16.0.32428.217
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HotelBookingMicroservice", "HotelBookingMicroservice.csproj", "{6593A43B-506D-44F3-A762-A390A4BF13B3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HotelBookingMicroservice.Tests", "..\HotelBookingMicroservice.Tests\HotelBookingMicroservice.Tests.csproj", "{AD5A4F16-E892-469F-A0A8-6885E259A58C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HotelBookingMicroservice.Tests", "..\HotelBookingMicroservice.Tests\HotelBookingMicroservice.Tests.csproj", "{AD5A4F16-E892-469F-A0A8-6885E259A58C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{40CAFA8B-2354-4E2F-B638-AD0640EC8291}"
+	ProjectSection(SolutionItems) = preProject
+		log4net.config = log4net.config
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

@@ -2,40 +2,40 @@
 
 
     <div class="modal-dialog">
-        <div class="modal-content">
+        <div class="modal-content" style="background-color: #000;">
             <div class="modal-header">
                 <h4 class="modal-title">User Details</h4>
             </div>
             <div class="container" *ngIf="user">
             <div>
-                <strong>Id:</strong>
+                <strong style="color: #fff;">Id:</strong>
                 <p>{{ user.id }}</p>
             </div>
 
             <div>
-                <strong>Name:</strong>
+                <strong style="color: #fff;">Name:</strong>
                 <p>{{ user.name }}</p>
             </div>
 
             <div>
-                <strong>Email:</strong>
+                <strong style="color: #fff;">Email:</strong>
                 <p>{{ user.email }}</p>
             </div>
 
             <div>
-                <strong>Mobile:</strong>
+                <strong style="color: #fff;">Mobile:</strong>
                 <p>{{ user.mobile }}</p>
             </div>
 
             <div>
-                <strong>Role:</strong>
+                <strong style="color: #fff;">Role:</strong>
                 <p>{{ user.role }}</p>
             </div>
 
-            <div>
-                <strong>CreatedDate:</strong>
+           <!-- <div>
+                <strong style="color: #fff;">CreatedDate:</strong>
                 <p>{{ user.registrationDate | date }}</p>
-            </div>
+            </div>-->
             <div class="modal-footer">
                 <a href="#" routerLink="/users" class="btn btn-primary">Back</a>
             </div>

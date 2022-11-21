@@ -1,22 +1,73 @@
 
-<div class="wrapper fadeInDown">
+<!-- <div class="wrapper fadeInDown bg-dark">
   <div id="formContent">
-    <!-- Tabs Titles -->
-
-    <!-- Login Form -->
+    
     <form [formGroup]="loginRequestForm" (ngSubmit)="onLoginSubmit()">
       <input type="text" id="login" class="fadeIn second" formControlName="email" placeholder="Email">
       <input type="password" id="password" class="fadeIn third" formControlName="password" placeholder="Password">
-      <div class="gradient-button"><input type="submit" class="fadeIn fourth" value="Log In"></div>
+      <div ><input type="submit" class="custom-button" style="color: white" class="fadeIn fourth" value="Log In"></div>
     </form>
 
     <p class="not-reg-text">Not Registered?<a class="underlineHover" href="#" routerLink="/auth/register">Create Account</a></p>
-    <!-- Remind Passowrd -->
-    <!-- <div id="formFooter">
-      <a class="underlineHover" href="#">Forgot Password?</a>
-    </div> -->
+    
 
   </div>
-</div>
+</div> -->
+<section class="h-100 gradient-form" style="background-color: #eee;">
+  <div class="container py-5 h-100">
+    <div class="row d-flex justify-content-center align-items-center h-100">
+      <div class="col-xl-10">
+        <div class="card rounded-3 text-black">
+          <div class="row g-0">
+            <div class="col-lg-6">
+              <div class="card-body p-md-5 mx-md-4">
+
+                <div class="text-center">
+                  <img src="https://cdn-icons-png.flaticon.com/512/2412/2412006.png"
+                    style="width: 185px;" alt="logo">
+                  <h4 class="mt-1 mb-5 pb-1">Hotel  Booking Management</h4>
+                </div>
+
+                <form [formGroup]="loginRequestForm" (ngSubmit)="onLoginSubmit()">
+                  <p>Please login to your account</p>
+
+                  <div class="form-outline mb-4">
+                    <input type="text" id="login" class="fadeIn second" formControlName="email" placeholder="Email" class="form-control">
+                  </div>
+
+                  <div class="form-outline mb-4">
+                    <input type="password" id="password" class="fadeIn third" formControlName="password" placeholder="Password" class="form-control">
+                    
+                  </div>
+
+                  <div class="text-center pt-1 mb-5 pb-1">
+                    <!-- <button class="btn btn-primary btn-block fa-lg gradient-custom-2 mb-3" type="button">Log
+                      in</button> -->
+                      <input type="submit" style="background-color: black;"class="btn btn-primary btn-block fa-lg  mb-3 " value="Log In" >
+                      
+                    
+                  </div>
+
+                  <div class="d-flex align-items-center justify-content-center pb-4">
+                    <p class="mb-0 me-2">Don't have an account?</p>
+                    <a class="underlineHover" href="#" routerLink="/auth/register">Create Account</a>
+                  </div>
+
+                </form>
+
+              </div>
+            </div>
+            <div style="background-color:black" class="col-lg-6 d-flex align-items-center gradient-custom-2" >
+              <div class="text-white px-3 py-4 p-md-5 mx-md-4" style="background-color:black">
+                <h4 class="mb-4">We make your travel memorable</h4>
+                
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
 
 

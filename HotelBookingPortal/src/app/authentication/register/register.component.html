@@ -1,17 +1,14 @@
 
-<div class="wrapper fadeInDown">
+<!--<div class="wrapper fadeInDown bg-dark">
   <div id="formContent">
-    <!-- Tabs Titles -->
-
-
-    <!-- Register Form -->
+   
     <form [formGroup]="form" (ngSubmit)="addUser()">
       <input type="text" id="name" class="fadeIn second" formControlName="name" placeholder="Full Name">
       <input type="email" id="email" class="fadeIn third" formControlName="email" placeholder="Email">
 
       <input type="password" id="password" class="fadeIn fourth" formControlName="password" placeholder="Password">
-      <input type="tel" id="mobileno" class="fadeIn fifth" formControlName="mobile" placeholder="Phone Number">
-      <input type="submit" class="fadeIn seventh" value="Register">
+      <input type="tel" id="mobileno" class="fadeIn fifth" formControlName="mobile"  placeholder="Phone Number">
+      <input type="submit" class="fadeIn seventh custom-button" style="color: white" value="Register">
 
       <div id="formFooter">
         <p>Already have an account?</p><a class="underlineHover" routerLink="/auth/login">Login</a>
@@ -20,21 +17,77 @@
     </form>
 
 
-
-
-
-
-
-
-
-    <!-- <form [formGroup]="RegisterRequestForm" (ngSubmit)="onRegisterSubmit()">
-      <input type="text" id="name" class="fadeIn second" formControlName="name" placeholder="Full Name">
-      <input type="email" id="email" class="fadeIn third" formControlName="email" placeholder="Email">
-
-      <input type="password" id="password" class="fadeIn fourth" formControlName="password" placeholder="Password">
-      <input type="tel" id="mobileno" class="fadeIn fifth" formControlName="mobileno" placeholder="Phone Number">
-      <input type="date" id="regdate" class="fadeIn sixth" formControlName="regdate" placeholder="Date">
-      <input type="submit" class="fadeIn seventh" value="Register">
-    </form>
-  --> </div>
+  </div>
 </div>
+-->
+<!-- Section: Design Block -->
+<section class="">
+  <!-- Jumbotron -->
+  <div class="px-4 py-5 px-md-5 text-center text-lg-start" style="background-color: hsl(0, 0%, 96%)">
+    <div class="container">
+      <div class="row gx-lg-5 align-items-center">
+        
+        <div class="col-lg-6 mb-5 mb-lg-0">
+          <h6 class="my-5 display-3 fw-bold ls-tight">
+            Hotel Booking Portal <br />
+            
+          </h6>
+         
+          <img src="https://cdn-icons-png.flaticon.com/512/2412/2412006.png" style="width: 185px; align-items: center; margin-left: 150px;">
+        </div>
+
+        <div class="col-lg-6 mb-5 mb-lg-0">
+          <div class="card">
+            <div class="card-body py-5 px-md-5" style="background-color: #000">
+              <form [formGroup]="form" (ngSubmit)="addUser()" >
+                <!-- 2 column grid layout with text inputs for the first and last names -->
+                <div class="row">
+                  <div class="col-md-6 mb-4">
+                    <div class="form-outline">
+                      <input type="text" id="name" class="fadeIn second" formControlName="name" placeholder="Full Name">
+                      <label class="form-label" for="form3Example1" style="color: #fff">Full name</label>
+                    </div>
+                  </div>
+                 
+                </div>
+
+                <!-- Email input -->
+                <div class="form-outline mb-4">
+                  <input type="email" id="email" class="fadeIn third" formControlName="email" placeholder="Email">
+                  <label class="form-label" for="form3Example3" style="color: #fff">Email address</label>
+                </div>
+
+                <!-- Password input -->
+                <div class="form-outline mb-4">
+                  <input type="password" id="password" class="fadeIn fourth" formControlName="password" placeholder="Password">
+                  <label class="form-label" for="form3Example4" style="color: #fff">Password</label>
+                </div>
+                <div class="form-outline mb-4">
+                  <input type="tel" id="mobileno" class="fadeIn fifth" formControlName="mobile"  placeholder="Phone Number">
+                  <label class="form-label" for="form3Example4" style="color: #fff">Phone Number</label>
+                </div>
+
+                <!-- Checkbox -->
+                
+
+                <!-- Submit button -->
+                
+                <button type="submit" class="btn btn-primary btn-block mb-4">
+                  Sign up
+                </button>
+                <div >
+                  <p style="text-align: center;">Already have an account?<a class="underlineHover" routerLink="/auth/login">Login</a></p>
+                </div>
+
+                <!-- Register buttons -->
+                
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Jumbotron -->
+</section>
+<!-- Section: Design Block -->

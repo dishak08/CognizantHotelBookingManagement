@@ -1,41 +1,42 @@
-<header class="header-area header-sticky wow slideInDown" data-wow-duration="0.75s" data-wow-delay="0s">
-  <div class="container container-fluid">
+ <header class="header-area header-sticky wow slideInDown bg-dark" style="background-color:#000 !important;border: 2px solid white !important;"data-wow-duration="0.75s" data-wow-delay="0s">
+  <div class="container container-fluid bg-dark">
     <div class="row">
       <div class="col-12">
         <nav class="main-nav navbar-expand-lg navbar-collapse">
-          <!-- ***** Logo Start ***** -->
-          <!-- center nav logo -->
+          
           <a routerLink="/" class="logo navbar-brand justify-item-center nav-logo-custom">
-            <h3>HBP</h3>
+            <h3>Hotel Booking</h3>
           </a>
-          <!-- ***** Logo End ***** -->
-          <!-- ***** Menu Start ***** -->
+         
           <ul class="nav">
-            <li class="scroll-to-section"><a routerLink="/" class="active">Home</a></li>
-            <li *ngIf="isAdminUser()" class="scroll-to-section"><a routerLink="/users">Users</a></li>
-            <li *ngIf="isLoggedIn()" class="scroll-to-section"><a routerLink="/hotel">Hotels</a></li>
-            <li *ngIf="isLoggedIn()" class="scroll-to-section"><a routerLink="/booking">Booking</a></li>
+            <li class="custom-nav"><a routerLink="/" style="color:white !important;"class="active">Home</a></li>
+            <li *ngIf="isAdminUser()" class="custom-nav"><a routerLink="/users" style="color:white !important;">Users</a></li>
+            <li *ngIf="isLoggedIn()" class="custom-nav"><a routerLink="/hotel" style="color:white !important;">Hotels</a></li>
+            <li *ngIf="isLoggedIn()" class="custom-nav"><a routerLink="/booking" style="color:white !important;">Booking</a></li>
             <li><a></a></li>
             <li *ngIf="!isLoggedIn()">
-              <div class="gradient-button"><a id="modal_trigger" routerLink="/auth/login"><i class="fa fa-sign-in-alt"></i> Sign In
-                  Now</a></div>
+              <div class="custom-button"><a id="modal_trigger" style="color:white;" routerLink="/auth/login"><i class="fa fa-sign-in-alt"></i> Sign In
+                </a></div>
             </li>
+            
             <li *ngIf="isLoggedIn()">
-              <div class="gradient-button"><a id="signout-button" (click)="logout()" ><i class="fa fa-sign-out"></i> Sign Out</a>
+              <div class="custom-button"><a id="profile-button" style="color:white;" routerLink="/profile"><i class="fa fa-profile"></i> Profile</a>
               </div>
             </li>
             <li *ngIf="isLoggedIn()">
-              <div class="gradient-button"><a id="profile-button" routerLink="/profile"><i class="fa fa-profile"></i> Profile</a>
+              <div class="custom-button"><a id="signout-button"style="color:white;" (click)="logout()" ><i class="fa fa-sign-out"></i> Sign Out</a>
               </div>
             </li>
           </ul>
           <a class='menu-trigger'>
             <span>Menu</span>
           </a>
-          <!-- ***** Menu End ***** -->
+         
         </nav>
       </div>
     </div>
   </div>
 </header>
-<router-outlet></router-outlet>
+
+<div style="height: 1px;" class="divider"></div>
+<router-outlet></router-outlet> 

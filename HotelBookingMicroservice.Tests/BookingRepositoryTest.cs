@@ -29,7 +29,7 @@ namespace HotelBookingMicroservice.Tests
         [SetUp]
         public void Setup()
         {
-            var options = new DbContextOptionsBuilder<BookingContext>().UseSqlServer("Data Source=DESKTOP-9VUSAHM;Initial Catalog=hotelBooking;Integrated Security=True").Options;
+            var options = new DbContextOptionsBuilder<BookingContext>().UseSqlServer("Data Source=localhost\\SQLEXPRESS;Initial Catalog=hotelBooking;Integrated Security=True").Options;
             _context = new BookingContext(options);
             _context.Database.EnsureCreated();
         }

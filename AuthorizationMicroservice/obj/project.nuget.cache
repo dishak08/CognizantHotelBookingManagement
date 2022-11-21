@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "y+LxnFkP7JqpsXPtsq92iuOPy16gu74GOS/b96x/uGNyyzCkp+/QOT4+RgQpXiIivVcBlNOy7Vjp9tGkkkW3AA==",
+  "dgSpecHash": "zK/uAaUHT42jsgdQ2bYgd7uRoVw2HIeubkW8Baey1eWaFrpaKnFz+pXP2DobqfQpdOzr9r8o/LveahuPSRic/Q==",
   "success": true,
-  "projectFilePath": "C:\\Users\\DHISHA\\HotelBookingManagement\\AuthorizationMicroservice\\AuthorizationMicroservice.csproj",
+  "projectFilePath": "C:\\Users\\DHISHA\\CognizantHotelBookingManagement\\AuthorizationMicroservice\\AuthorizationMicroservice.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\DHISHA\\.nuget\\packages\\log4net\\2.0.8\\log4net.2.0.8.nupkg.sha512",
     "C:\\Users\\DHISHA\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\3.1.0\\microsoft.aspnetcore.authentication.jwtbearer.3.1.0.nupkg.sha512",

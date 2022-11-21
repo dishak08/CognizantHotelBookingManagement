@@ -1,5 +1,6 @@
 ﻿using HotelMicroservice.Model;
 using HotelMicroservice.Repository;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using System;
@@ -24,7 +25,7 @@ namespace HotelMicroservice.Controllers
 
         // GET: api/Hotels
         [HttpGet]
-        //[Authorize]
+       // [Authorize]
         public async Task<ActionResult<ResponseObj>> GetHotels()
         {
             try
@@ -68,7 +69,7 @@ namespace HotelMicroservice.Controllers
 
         // PUT: api/Hotels/5
         [HttpPut("{id}")]
-        //[Authorize]
+      //  [Authorize]
         public async Task<ActionResult<ResponseObj>> PutHotel(int id, Hotel hotel)
         {
             _log4net.Info("PutHotel Method called");
@@ -91,7 +92,7 @@ namespace HotelMicroservice.Controllers
 
         // POST: api/Hotels
         [HttpPost]
-        //[Authorize]
+      //  [Authorize]
         public async Task<ActionResult<ResponseObj>> PostHotel([FromBody] Hotel hotel)
         {
             try
@@ -118,7 +119,7 @@ namespace HotelMicroservice.Controllers
 
         // DELETE: api/Hotels/5
         [HttpDelete("{id}")]
-        //[Authorize]
+      //  [Authorize]
         public async Task<ActionResult<Hotel>> DeleteHotel(int id)
         {
             try

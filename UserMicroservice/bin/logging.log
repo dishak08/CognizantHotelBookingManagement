@@ -1,0 +1,302 @@
+2022-10-04 20:30:16,539 INFO  Microsoft.Hosting.Lifetime.? [?] - MESSAGE: Application started. Press Ctrl+C to shut down.
+2022-10-04 20:30:16,550 INFO  Microsoft.Hosting.Lifetime.? [?] - MESSAGE: Application started. Press Ctrl+C to shut down.
+2022-10-04 20:30:16,551 INFO  Microsoft.Hosting.Lifetime.? [?] - MESSAGE: Hosting environment: Development
+2022-10-04 20:30:16,551 INFO  Microsoft.Hosting.Lifetime.? [?] - MESSAGE: Hosting environment: Development
+2022-10-04 20:30:16,551 INFO  Microsoft.Hosting.Lifetime.? [?] - MESSAGE: Content root path: C:\Users\DHISHA\CognizantHotelBookingManagement\UserMicroservice
+2022-10-04 20:30:16,551 INFO  Microsoft.Hosting.Lifetime.? [?] - MESSAGE: Content root path: C:\Users\DHISHA\CognizantHotelBookingManagement\UserMicroservice
+INFO  08:32:06 Application started. Press Ctrl+C to shut down.
+INFO  08:32:06 Application started. Press Ctrl+C to shut down.
+INFO  08:32:06 Hosting environment: Development
+INFO  08:32:06 Hosting environment: Development
+INFO  08:32:06 Content root path: C:\Users\DHISHA\CognizantHotelBookingManagement\UserMicroservice
+INFO  08:32:06 Content root path: C:\Users\DHISHA\CognizantHotelBookingManagement\UserMicroservice
+INFO  08:42:36 Application started. Press Ctrl+C to shut down.
+INFO  08:42:37 Application started. Press Ctrl+C to shut down.
+INFO  08:42:37 Hosting environment: Development
+INFO  08:42:37 Hosting environment: Development
+INFO  08:42:38 Content root path: C:\Users\DHISHA\CognizantHotelBookingManagement\UserMicroservice
+INFO  08:42:38 Content root path: C:\Users\DHISHA\CognizantHotelBookingManagement\UserMicroservice
+INFO  08:48:49 logging in user
+INFO  08:48:49 logging in user
+ERROR 08:48:57 An unhandled exception has occurred while executing the request.
+UserMicroservice.Exceptions.UserNotFoundException: User not found
+   at UserMicroservice.Repository.UserRepository.LoginUser(LoginRequest request) in C:\Users\DHISHA\CognizantHotelBookingManagement\UserMicroservice\Repository\UserRepository.cs:line 77
+   at UserMicroservice.Controllers.UserController.Login(LoginRequest login) in C:\Users\DHISHA\CognizantHotelBookingManagement\UserMicroservice\Controllers\UserController.cs:line 123
+   at lambda_method(Closure , Object )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutorAwaitable.Awaiter.GetResult()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+ERROR 08:48:57 An unhandled exception has occurred while executing the request.
+UserMicroservice.Exceptions.UserNotFoundException: User not found
+   at UserMicroservice.Repository.UserRepository.LoginUser(LoginRequest request) in C:\Users\DHISHA\CognizantHotelBookingManagement\UserMicroservice\Repository\UserRepository.cs:line 77
+   at UserMicroservice.Controllers.UserController.Login(LoginRequest login) in C:\Users\DHISHA\CognizantHotelBookingManagement\UserMicroservice\Controllers\UserController.cs:line 123
+   at lambda_method(Closure , Object )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutorAwaitable.Awaiter.GetResult()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+INFO  08:48:59 logging in user
+INFO  08:48:59 logging in user
+INFO  08:49:00 Start processing HTTP request POST https://localhost:44351/api/auth/login
+INFO  08:49:00 Start processing HTTP request POST https://localhost:44351/api/auth/login
+INFO  08:49:00 Sending HTTP request POST https://localhost:44351/api/auth/login
+INFO  08:49:00 Sending HTTP request POST https://localhost:44351/api/auth/login
+INFO  08:49:02 Received HTTP response after 2291.33ms - OK
+INFO  08:49:02 Received HTTP response after 2291.33ms - OK
+INFO  08:49:02 End processing HTTP request after 2357.7811ms - OK
+INFO  08:49:02 End processing HTTP request after 2357.7811ms - OK
+INFO  08:49:06 Getting list of all users
+INFO  08:49:06 Getting list of all users
+INFO  08:49:14 Getting list of all users
+INFO  08:49:14 Getting list of all users
+INFO  09:00:04 Getting list of all users
+INFO  09:00:04 Getting list of all users
+INFO  09:00:15 Getting list of all users
+INFO  09:00:15 Getting list of all users
+INFO  09:03:47 Getting list of all users
+INFO  09:03:47 Getting list of all users
+INFO  09:09:02 Getting list of all users
+INFO  09:09:02 Getting list of all users
+INFO  10:40:17 logging in user
+INFO  10:40:17 logging in user
+INFO  10:40:20 Start processing HTTP request POST https://localhost:44351/api/auth/login
+INFO  10:40:20 Start processing HTTP request POST https://localhost:44351/api/auth/login
+INFO  10:40:20 Sending HTTP request POST https://localhost:44351/api/auth/login
+INFO  10:40:20 Sending HTTP request POST https://localhost:44351/api/auth/login
+INFO  10:40:21 Received HTTP response after 619.8322ms - OK
+INFO  10:40:21 Received HTTP response after 619.8322ms - OK
+INFO  10:40:21 End processing HTTP request after 658.3615ms - OK
+INFO  10:40:21 End processing HTTP request after 658.3615ms - OK
+INFO  10:40:24 Getting list of all users
+INFO  10:40:24 Getting list of all users
+INFO  10:40:43 Getting list of all users
+INFO  10:40:43 Getting list of all users
+INFO  10:46:32 Getting list of all users
+INFO  10:46:32 Getting list of all users
+INFO  10:46:36 Getting list of all users
+INFO  10:46:36 Getting list of all users
+INFO  05:09:17 logging in user
+INFO  05:09:17 logging in user
+INFO  05:09:17 Start processing HTTP request POST https://localhost:44351/api/auth/login
+INFO  05:09:17 Start processing HTTP request POST https://localhost:44351/api/auth/login
+INFO  05:09:17 Sending HTTP request POST https://localhost:44351/api/auth/login
+INFO  05:09:17 Sending HTTP request POST https://localhost:44351/api/auth/login
+INFO  05:09:17 Received HTTP response after 308.8067ms - OK
+INFO  05:09:17 Received HTTP response after 308.8067ms - OK
+INFO  05:09:17 End processing HTTP request after 319.2052ms - OK
+INFO  05:09:17 End processing HTTP request after 319.2052ms - OK
+INFO  05:09:19 Getting list of all users
+INFO  05:09:19 Getting list of all users
+INFO  05:09:34 Getting list of all users
+INFO  05:09:34 Getting list of all users
+INFO  05:09:56 Added a new user
+INFO  05:09:56 Added a new user
+INFO  05:09:56 Getting list of all users
+INFO  05:09:56 Getting list of all users
+INFO  05:10:23 logging in user
+INFO  05:10:23 logging in user
+INFO  05:10:23 Start processing HTTP request POST https://localhost:44351/api/auth/login
+INFO  05:10:23 Start processing HTTP request POST https://localhost:44351/api/auth/login
+INFO  05:10:23 Sending HTTP request POST https://localhost:44351/api/auth/login
+INFO  05:10:23 Sending HTTP request POST https://localhost:44351/api/auth/login
+INFO  05:10:23 Received HTTP response after 79.6171ms - OK
+INFO  05:10:23 Received HTTP response after 79.6171ms - OK
+INFO  05:10:23 End processing HTTP request after 88.3096ms - OK
+INFO  05:10:23 End processing HTTP request after 88.3096ms - OK
+INFO  05:11:17 logging in user
+INFO  05:11:17 logging in user
+INFO  05:11:18 Start processing HTTP request POST https://localhost:44351/api/auth/login
+INFO  05:11:18 Start processing HTTP request POST https://localhost:44351/api/auth/login
+INFO  05:11:18 Sending HTTP request POST https://localhost:44351/api/auth/login
+INFO  05:11:18 Sending HTTP request POST https://localhost:44351/api/auth/login
+INFO  05:11:18 Received HTTP response after 103.5057ms - OK
+INFO  05:11:18 Received HTTP response after 103.5057ms - OK
+INFO  05:11:18 End processing HTTP request after 113.1415ms - OK
+INFO  05:11:18 End processing HTTP request after 113.1415ms - OK
+INFO  05:11:42 Getting list of all users
+INFO  05:11:42 Getting list of all users
+INFO  05:12:10 logging in user
+INFO  05:12:10 logging in user
+INFO  05:12:10 Start processing HTTP request POST https://localhost:44351/api/auth/login
+INFO  05:12:10 Start processing HTTP request POST https://localhost:44351/api/auth/login
+INFO  05:12:10 Sending HTTP request POST https://localhost:44351/api/auth/login
+INFO  05:12:10 Sending HTTP request POST https://localhost:44351/api/auth/login
+INFO  05:12:10 Received HTTP response after 87.2257ms - OK
+INFO  05:12:10 Received HTTP response after 87.2257ms - OK
+INFO  05:12:10 End processing HTTP request after 115.4993ms - OK
+INFO  05:12:10 End processing HTTP request after 115.4993ms - OK
+INFO  05:12:14 Getting list of a particular user
+INFO  05:12:14 Getting list of a particular user
+INFO  05:12:31 Getting list of a particular user
+INFO  05:12:31 Getting list of a particular user
+INFO  09:49:19 logging in user
+INFO  09:49:19 logging in user
+INFO  09:49:22 Start processing HTTP request POST https://localhost:44351/api/auth/login
+INFO  09:49:22 Start processing HTTP request POST https://localhost:44351/api/auth/login
+INFO  09:49:22 Sending HTTP request POST https://localhost:44351/api/auth/login
+INFO  09:49:22 Sending HTTP request POST https://localhost:44351/api/auth/login
+INFO  09:49:23 Received HTTP response after 1078.4325ms - OK
+INFO  09:49:23 Received HTTP response after 1078.4325ms - OK
+INFO  09:49:23 End processing HTTP request after 1168.0148ms - OK
+INFO  09:49:23 End processing HTTP request after 1168.0148ms - OK
+INFO  09:50:31 Getting list of all users
+INFO  09:50:31 Getting list of all users
+INFO  09:57:22 logging in user
+INFO  09:57:22 logging in user
+ERROR 09:57:23 An unhandled exception has occurred while executing the request.
+UserMicroservice.Exceptions.UserNotFoundException: Password doesnot match
+   at UserMicroservice.Repository.UserRepository.LoginUser(LoginRequest request) in C:\Users\DHISHA\CognizantHotelBookingManagement\UserMicroservice\Repository\UserRepository.cs:line 86
+   at UserMicroservice.Controllers.UserController.Login(LoginRequest login) in C:\Users\DHISHA\CognizantHotelBookingManagement\UserMicroservice\Controllers\UserController.cs:line 123
+   at lambda_method(Closure , Object )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutorAwaitable.Awaiter.GetResult()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+ERROR 09:57:23 An unhandled exception has occurred while executing the request.
+UserMicroservice.Exceptions.UserNotFoundException: Password doesnot match
+   at UserMicroservice.Repository.UserRepository.LoginUser(LoginRequest request) in C:\Users\DHISHA\CognizantHotelBookingManagement\UserMicroservice\Repository\UserRepository.cs:line 86
+   at UserMicroservice.Controllers.UserController.Login(LoginRequest login) in C:\Users\DHISHA\CognizantHotelBookingManagement\UserMicroservice\Controllers\UserController.cs:line 123
+   at lambda_method(Closure , Object )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutorAwaitable.Awaiter.GetResult()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+INFO  09:57:28 logging in user
+INFO  09:57:28 logging in user
+ERROR 09:57:29 An unhandled exception has occurred while executing the request.
+UserMicroservice.Exceptions.UserNotFoundException: User not found
+   at UserMicroservice.Repository.UserRepository.LoginUser(LoginRequest request) in C:\Users\DHISHA\CognizantHotelBookingManagement\UserMicroservice\Repository\UserRepository.cs:line 77
+   at UserMicroservice.Controllers.UserController.Login(LoginRequest login) in C:\Users\DHISHA\CognizantHotelBookingManagement\UserMicroservice\Controllers\UserController.cs:line 123
+   at lambda_method(Closure , Object )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutorAwaitable.Awaiter.GetResult()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+ERROR 09:57:29 An unhandled exception has occurred while executing the request.
+UserMicroservice.Exceptions.UserNotFoundException: User not found
+   at UserMicroservice.Repository.UserRepository.LoginUser(LoginRequest request) in C:\Users\DHISHA\CognizantHotelBookingManagement\UserMicroservice\Repository\UserRepository.cs:line 77
+   at UserMicroservice.Controllers.UserController.Login(LoginRequest login) in C:\Users\DHISHA\CognizantHotelBookingManagement\UserMicroservice\Controllers\UserController.cs:line 123
+   at lambda_method(Closure , Object )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutorAwaitable.Awaiter.GetResult()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+INFO  09:57:44 logging in user
+INFO  09:57:44 logging in user
+INFO  09:57:44 Start processing HTTP request POST https://localhost:44351/api/auth/login
+INFO  09:57:44 Start processing HTTP request POST https://localhost:44351/api/auth/login
+INFO  09:57:44 Sending HTTP request POST https://localhost:44351/api/auth/login
+INFO  09:57:44 Sending HTTP request POST https://localhost:44351/api/auth/login
+INFO  09:57:44 Received HTTP response after 127.4376ms - OK
+INFO  09:57:44 Received HTTP response after 127.4376ms - OK
+INFO  09:57:44 End processing HTTP request after 143.2239ms - OK
+INFO  09:57:44 End processing HTTP request after 143.2239ms - OK
+INFO  09:58:35 logging in user
+INFO  09:58:35 logging in user
+INFO  09:58:35 Start processing HTTP request POST https://localhost:44351/api/auth/login
+INFO  09:58:35 Start processing HTTP request POST https://localhost:44351/api/auth/login
+INFO  09:58:35 Sending HTTP request POST https://localhost:44351/api/auth/login
+INFO  09:58:35 Sending HTTP request POST https://localhost:44351/api/auth/login
+INFO  09:58:35 Received HTTP response after 83.1903ms - OK
+INFO  09:58:35 Received HTTP response after 83.1903ms - OK
+INFO  09:58:35 End processing HTTP request after 123.623ms - OK
+INFO  09:58:35 End processing HTTP request after 123.623ms - OK
+INFO  09:58:38 Getting list of all users
+INFO  09:58:38 Getting list of all users
+INFO  09:58:40 Getting list of a particular user
+INFO  09:58:40 Getting list of a particular user
+INFO  10:09:18 Application started. Press Ctrl+C to shut down.
+INFO  10:09:18 Application started. Press Ctrl+C to shut down.
+INFO  10:09:18 Hosting environment: Development
+INFO  10:09:18 Hosting environment: Development
+INFO  10:09:18 Content root path: C:\Users\DHISHA\CognizantHotelBookingManagement\UserMicroservice
+INFO  10:09:18 Content root path: C:\Users\DHISHA\CognizantHotelBookingManagement\UserMicroservice
+INFO  10:11:26 logging in user
+INFO  10:11:26 logging in user
+INFO  10:11:32 Start processing HTTP request POST https://localhost:44351/api/auth/login
+INFO  10:11:32 Start processing HTTP request POST https://localhost:44351/api/auth/login
+INFO  10:11:32 Sending HTTP request POST https://localhost:44351/api/auth/login
+INFO  10:11:32 Sending HTTP request POST https://localhost:44351/api/auth/login
+INFO  10:11:35 Received HTTP response after 2861.456ms - OK
+INFO  10:11:35 Received HTTP response after 2861.456ms - OK
+INFO  10:11:35 End processing HTTP request after 2942.7765ms - OK
+INFO  10:11:35 End processing HTTP request after 2942.7765ms - OK
+INFO  10:12:38 logging in user
+INFO  10:12:38 logging in user
+INFO  10:12:38 Start processing HTTP request POST https://localhost:44351/api/auth/login
+INFO  10:12:38 Start processing HTTP request POST https://localhost:44351/api/auth/login
+INFO  10:12:38 Sending HTTP request POST https://localhost:44351/api/auth/login
+INFO  10:12:38 Sending HTTP request POST https://localhost:44351/api/auth/login
+INFO  10:12:38 Received HTTP response after 44.7674ms - OK
+INFO  10:12:38 Received HTTP response after 44.7674ms - OK
+INFO  10:12:38 End processing HTTP request after 51.2576ms - OK
+INFO  10:12:38 End processing HTTP request after 51.2576ms - OK
+INFO  10:12:45 Getting list of all users
+INFO  10:12:45 Getting list of all users

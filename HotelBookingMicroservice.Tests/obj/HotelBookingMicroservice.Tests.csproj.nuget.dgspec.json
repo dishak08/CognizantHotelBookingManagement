@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\DHISHA\\HotelBookingManagement\\HotelBookingMicroservice.Tests\\HotelBookingMicroservice.Tests.csproj": {}
+    "C:\\Users\\DHISHA\\CognizantHotelBookingManagement\\HotelBookingMicroservice.Tests\\HotelBookingMicroservice.Tests.csproj": {}
   },
   "projects": {
-    "C:\\Users\\DHISHA\\HotelBookingManagement\\HotelBookingMicroservice.Tests\\HotelBookingMicroservice.Tests.csproj": {
+    "C:\\Users\\DHISHA\\CognizantHotelBookingManagement\\HotelBookingMicroservice.Tests\\HotelBookingMicroservice.Tests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\DHISHA\\HotelBookingManagement\\HotelBookingMicroservice.Tests\\HotelBookingMicroservice.Tests.csproj",
+        "projectUniqueName": "C:\\Users\\DHISHA\\CognizantHotelBookingManagement\\HotelBookingMicroservice.Tests\\HotelBookingMicroservice.Tests.csproj",
         "projectName": "HotelBookingMicroservice.Tests",
-        "projectPath": "C:\\Users\\DHISHA\\HotelBookingManagement\\HotelBookingMicroservice.Tests\\HotelBookingMicroservice.Tests.csproj",
+        "projectPath": "C:\\Users\\DHISHA\\CognizantHotelBookingManagement\\HotelBookingMicroservice.Tests\\HotelBookingMicroservice.Tests.csproj",
         "packagesPath": "C:\\Users\\DHISHA\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\DHISHA\\HotelBookingManagement\\HotelBookingMicroservice.Tests\\obj\\",
+        "outputPath": "C:\\Users\\DHISHA\\CognizantHotelBookingManagement\\HotelBookingMicroservice.Tests\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\DHISHA\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,8 +28,8 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\DHISHA\\HotelBookingManagement\\HotelBookingMicroservice\\HotelBookingMicroservice.csproj": {
-                "projectPath": "C:\\Users\\DHISHA\\HotelBookingManagement\\HotelBookingMicroservice\\HotelBookingMicroservice.csproj"
+              "C:\\Users\\DHISHA\\CognizantHotelBookingManagement\\HotelBookingMicroservice\\HotelBookingMicroservice.csproj": {
+                "projectPath": "C:\\Users\\DHISHA\\CognizantHotelBookingManagement\\HotelBookingMicroservice\\HotelBookingMicroservice.csproj"
               }
             }
           }
@@ -84,14 +84,14 @@
         }
       }
     },
-    "C:\\Users\\DHISHA\\HotelBookingManagement\\HotelBookingMicroservice\\HotelBookingMicroservice.csproj": {
+    "C:\\Users\\DHISHA\\CognizantHotelBookingManagement\\HotelBookingMicroservice\\HotelBookingMicroservice.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\DHISHA\\HotelBookingManagement\\HotelBookingMicroservice\\HotelBookingMicroservice.csproj",
+        "projectUniqueName": "C:\\Users\\DHISHA\\CognizantHotelBookingManagement\\HotelBookingMicroservice\\HotelBookingMicroservice.csproj",
         "projectName": "HotelBookingMicroservice",
-        "projectPath": "C:\\Users\\DHISHA\\HotelBookingManagement\\HotelBookingMicroservice\\HotelBookingMicroservice.csproj",
+        "projectPath": "C:\\Users\\DHISHA\\CognizantHotelBookingManagement\\HotelBookingMicroservice\\HotelBookingMicroservice.csproj",
         "packagesPath": "C:\\Users\\DHISHA\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\DHISHA\\HotelBookingManagement\\HotelBookingMicroservice\\obj\\",
+        "outputPath": "C:\\Users\\DHISHA\\CognizantHotelBookingManagement\\HotelBookingMicroservice\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\DHISHA\\AppData\\Roaming\\NuGet\\NuGet.Config",

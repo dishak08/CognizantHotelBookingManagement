@@ -24,7 +24,7 @@ export class IndexComponent implements OnInit {
     })
   }
 
-  deleteMovie(id:number){
+  deleteHotel(id:number){
     this.hotelService.delete(id).subscribe(res => {
          this.hotels = this.hotels.filter(item => item.id !== id);
          this.toastr.success('Hotel deleted successfully!');

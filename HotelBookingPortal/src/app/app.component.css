@@ -1,6 +1,6 @@
 @import '~ngx-toastr/toastr';
 
-/* Center this nav logo in the row */
+
 .nav-logo-custom {
   display: flex;
   align-items: center;
@@ -15,6 +15,21 @@
 }
 
 h3{
-  color: rgb(91, 79, 153);
+  color:white;
 }
 
+.custom-button{
+  border-radius: 20px;
+  border: 2px solid white;
+  background-color: black;
+  color: white !important;
+  
+  text-align: center;
+  width:120px;
+}
+
+.custom-button:hover{
+  border:2px solid powderblue ;
+  background-color: powderblue;
+}
+ 

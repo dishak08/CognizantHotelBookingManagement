@@ -5960,11 +5960,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\DHISHA\\HotelBookingManagement\\HotelBookingMicroservice\\HotelBookingMicroservice.csproj",
+      "projectUniqueName": "C:\\Users\\DHISHA\\CognizantHotelBookingManagement\\HotelBookingMicroservice\\HotelBookingMicroservice.csproj",
       "projectName": "HotelBookingMicroservice",
-      "projectPath": "C:\\Users\\DHISHA\\HotelBookingManagement\\HotelBookingMicroservice\\HotelBookingMicroservice.csproj",
+      "projectPath": "C:\\Users\\DHISHA\\CognizantHotelBookingManagement\\HotelBookingMicroservice\\HotelBookingMicroservice.csproj",
       "packagesPath": "C:\\Users\\DHISHA\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\DHISHA\\HotelBookingManagement\\HotelBookingMicroservice\\obj\\",
+      "outputPath": "C:\\Users\\DHISHA\\CognizantHotelBookingManagement\\HotelBookingMicroservice\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\DHISHA\\AppData\\Roaming\\NuGet\\NuGet.Config",
